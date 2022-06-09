@@ -1,0 +1,36 @@
+table{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    border-spacing: 0;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3),
+                0px 1px 3px 1px rgba(0, 0, 0, 0.15); ;
+}
+
+td,th{
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+
+table td, th {
+    padding: 0 16px;
+}
+
+table tr:not(:last-child) td, th {
+    border-bottom: 1px solid black;
+}
+
+a{
+    display: inline-block;
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.btn.tbl{
+    margin: 10px;
+}

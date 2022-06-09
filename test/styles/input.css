@@ -1,0 +1,15 @@
+input[type=file]{
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+  
+input[type=radio]{
+    width: 7%;
+    display: inline;
+}
+
+*{
+    accent-color: var(--primary);
+}

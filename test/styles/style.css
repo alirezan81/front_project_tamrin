@@ -1,0 +1,110 @@
+@import "theme.css";
+@import "button.css";
+@import "textbox.css";
+@import "input.css";
+@import "table.css";
+@import "layout.css";
+@import "nav.css";
+
+:root{
+  --primary: var(--md-sys-color-primary-light);
+  --on-primary: var(--md-sys-color-on-primary-light);
+  --box: var(--md-sys-color-background-light);
+}
+
+*{
+  font-family: 'Yekan Bakh', 'vazir', 'iransansmobile', 'B titr';
+  font-size: 16px;
+}
+
+body{
+  background-image: url("pattern.png");
+}
+
+
+
+.box{
+  padding: 10px;
+  padding-top: 30px;
+  margin: auto auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgb(160, 159, 159);
+}
+
+.box.small{
+  width: 70%;
+}
+
+.box.medium{
+  width: 90%;
+}
+
+.box.large{
+  width: 97%;
+}
+
+
+form{
+  text-align: center;
+  padding-top:20px ;
+  padding-bottom:20px ;
+}
+
+form > *{
+  margin-top: 10px;
+}
+  
+
+label:not(.radio_lbl){
+  width:15em;
+  text-align: right;
+  margin-right: 12%;
+  color: #2b2d2f;
+  display: block;
+}
+
+
+h1:not(#header-title){
+  margin: 0 auto;
+  background-color:var(--primary);
+  width: 75%;
+  text-align: center;
+  color: var(--on-primary);
+  border-radius: 10px;
+  padding: 6px 0;
+  font-size: 25px;
+}
+
+
+select{
+  margin: 10px auto;
+  font-size: medium;
+}
+
+.user_list{
+  display: block;
+}
+  
+.small_txt{
+  width: 20% !important; 
+  display: inline !important;
+}
+
+.radio_lbl{
+  margin: 0 auto;
+}
+
+.cover{
+  margin: 15px auto;
+  display: block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 150px;
+  height:150px;
+}
+
+a{
+  text-decoration: none;
+}
+

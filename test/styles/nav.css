@@ -1,0 +1,62 @@
+:root{
+    --surface: #FFFBFE;
+    --on-surface-variant: #49454E;
+    --secondary-container:#E8DEF8;
+    --on-secondary-container: #1E192B;
+
+
+
+    direction: rtl;
+    font-family: "Yekan Bakh";
+    font-size: 14px;
+}
+
+.menu{
+    list-style-type:none;
+    padding: 10px;
+}
+
+ul.menu li > a , i{
+    display: inline-block;
+    text-decoration:none;
+    color: var(--on-surface-variant);
+}
+
+
+ul.menu li{
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+
+li > a{
+    width: 80%;
+    padding: 4px;
+}
+
+.menu li:hover{
+    background-color:var(--secondary-container);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.menu li:hover i{
+    color:var(--on-secondary-container);
+}
+.menu li:hover a{
+    color:var(--on-secondary-container);
+}
+
+.menu-head{
+    margin-top: 15px;
+    color: var(--on-surface-variant);
+}
+
+.nav{
+    background-color:var(--surface);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3),
+                0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+    border-radius:12px;
+    width:100%;
+}
+
+

@@ -1,0 +1,21 @@
+.btn{
+    border: none;
+    background-color: var(--primary);
+    color: var(--on-primary);
+    border-radius: 8px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    padding: 15px 15px;
+} 
+.btn *{
+    vertical-align: middle;
+    margin: auto auto;
+}
+
+.btn:hover{
+    background-color:  #af1c28;
+}
+
+.btn:not(a){
+    margin-top: 30px;
+}
